@@ -23,6 +23,14 @@
 /* Begin PBXBuildFile section */
 		480890B51AF6A7F30058745C /* BaseRssHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 480890B41AF6A7F30058745C /* BaseRssHttpClient.m */; };
 		480890BB1AF7628E0058745C /* YahootopicsRssHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 480890BA1AF7628E0058745C /* YahootopicsRssHttpClient.m */; };
+		480891011AF7AB140058745C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 480891001AF7AB140058745C /* main.m */; };
+		480891041AF7AB140058745C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 480891031AF7AB140058745C /* AppDelegate.m */; };
+		480891071AF7AB140058745C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 480891061AF7AB140058745C /* ViewController.m */; };
+		4808910A1AF7AB140058745C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 480891081AF7AB140058745C /* Main.storyboard */; };
+		4808910C1AF7AB140058745C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4808910B1AF7AB140058745C /* Images.xcassets */; };
+		4808910F1AF7AB140058745C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4808910D1AF7AB140058745C /* LaunchScreen.xib */; };
+		4808911B1AF7AB140058745C /* RssManagerSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4808911A1AF7AB140058745C /* RssManagerSampleTests.m */; };
+		480891261AF7B5170058745C /* librssmanager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 48D1C6791AF0476500CBAF8E /* librssmanager.a */; };
 		48D1C67D1AF0476500CBAF8E /* rssmanager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 48D1C67C1AF0476500CBAF8E /* rssmanager.h */; };
 		48D1C67F1AF0476500CBAF8E /* rssmanager.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D1C67E1AF0476500CBAF8E /* rssmanager.m */; };
 		48D1C6851AF0476500CBAF8E /* librssmanager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 48D1C6791AF0476500CBAF8E /* librssmanager.a */; };
@@ -32,6 +40,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		480891151AF7AB140058745C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48D1C6711AF0476500CBAF8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 480890FB1AF7AB140058745C;
+			remoteInfo = RssManagerSample;
+		};
+		480891221AF7AC770058745C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48D1C6711AF0476500CBAF8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48D1C6781AF0476500CBAF8E;
+			remoteInfo = rssmanager;
+		};
+		480891241AF7ACB10058745C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48D1C6711AF0476500CBAF8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 480890BD1AF769CB0058745C;
+			remoteInfo = CreateAppleDoc;
+		};
 		48D1C6861AF0476500CBAF8E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 48D1C6711AF0476500CBAF8E /* Project object */;
@@ -59,6 +88,19 @@
 		480890B61AF6A8050058745C /* BaseRssHttpClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseRssHttpClient.h; sourceTree = "<group>"; };
 		480890BA1AF7628E0058745C /* YahootopicsRssHttpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YahootopicsRssHttpClient.m; sourceTree = "<group>"; };
 		480890BC1AF7629A0058745C /* YahootopicsRssHttpClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YahootopicsRssHttpClient.h; sourceTree = "<group>"; };
+		480890FC1AF7AB140058745C /* RssManagerSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RssManagerSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		480890FF1AF7AB140058745C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		480891001AF7AB140058745C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		480891021AF7AB140058745C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		480891031AF7AB140058745C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		480891051AF7AB140058745C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		480891061AF7AB140058745C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		480891091AF7AB140058745C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4808910B1AF7AB140058745C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4808910E1AF7AB140058745C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		480891141AF7AB140058745C /* RssManagerSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RssManagerSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		480891191AF7AB140058745C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4808911A1AF7AB140058745C /* RssManagerSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RssManagerSampleTests.m; sourceTree = "<group>"; };
 		48D1C6791AF0476500CBAF8E /* librssmanager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = librssmanager.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		48D1C67C1AF0476500CBAF8E /* rssmanager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rssmanager.h; sourceTree = "<group>"; };
 		48D1C67E1AF0476500CBAF8E /* rssmanager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rssmanager.m; sourceTree = "<group>"; };
@@ -73,6 +115,21 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		480890F91AF7AB140058745C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				480891261AF7B5170058745C /* librssmanager.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		480891111AF7AB140058745C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		48D1C6761AF0476500CBAF8E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -91,11 +148,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		480890FD1AF7AB140058745C /* RssManagerSample */ = {
+			isa = PBXGroup;
+			children = (
+				480891021AF7AB140058745C /* AppDelegate.h */,
+				480891031AF7AB140058745C /* AppDelegate.m */,
+				480891051AF7AB140058745C /* ViewController.h */,
+				480891061AF7AB140058745C /* ViewController.m */,
+				480891081AF7AB140058745C /* Main.storyboard */,
+				4808910B1AF7AB140058745C /* Images.xcassets */,
+				4808910D1AF7AB140058745C /* LaunchScreen.xib */,
+				480890FE1AF7AB140058745C /* Supporting Files */,
+			);
+			path = RssManagerSample;
+			sourceTree = "<group>";
+		};
+		480890FE1AF7AB140058745C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				480890FF1AF7AB140058745C /* Info.plist */,
+				480891001AF7AB140058745C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		480891171AF7AB140058745C /* RssManagerSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				4808911A1AF7AB140058745C /* RssManagerSampleTests.m */,
+				480891181AF7AB140058745C /* Supporting Files */,
+			);
+			path = RssManagerSampleTests;
+			sourceTree = "<group>";
+		};
+		480891181AF7AB140058745C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				480891191AF7AB140058745C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		48D1C6701AF0476500CBAF8E = {
 			isa = PBXGroup;
 			children = (
 				48D1C67B1AF0476500CBAF8E /* rssmanager */,
 				48D1C6881AF0476500CBAF8E /* rssmanagerTests */,
+				480890FD1AF7AB140058745C /* RssManagerSample */,
+				480891171AF7AB140058745C /* RssManagerSampleTests */,
 				48D1C67A1AF0476500CBAF8E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -105,6 +205,8 @@
 			children = (
 				48D1C6791AF0476500CBAF8E /* librssmanager.a */,
 				48D1C6841AF0476500CBAF8E /* rssmanagerTests.xctest */,
+				480890FC1AF7AB140058745C /* RssManagerSample.app */,
+				480891141AF7AB140058745C /* RssManagerSampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -147,6 +249,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		480890FB1AF7AB140058745C /* RssManagerSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 480891201AF7AB140058745C /* Build configuration list for PBXNativeTarget "RssManagerSample" */;
+			buildPhases = (
+				480890F81AF7AB140058745C /* Sources */,
+				480890F91AF7AB140058745C /* Frameworks */,
+				480890FA1AF7AB140058745C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				480891231AF7AC770058745C /* PBXTargetDependency */,
+			);
+			name = RssManagerSample;
+			productName = RssManagerSample;
+			productReference = 480890FC1AF7AB140058745C /* RssManagerSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		480891131AF7AB140058745C /* RssManagerSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 480891211AF7AB140058745C /* Build configuration list for PBXNativeTarget "RssManagerSampleTests" */;
+			buildPhases = (
+				480891101AF7AB140058745C /* Sources */,
+				480891111AF7AB140058745C /* Frameworks */,
+				480891121AF7AB140058745C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				480891161AF7AB140058745C /* PBXTargetDependency */,
+			);
+			name = RssManagerSampleTests;
+			productName = RssManagerSampleTests;
+			productReference = 480891141AF7AB140058745C /* RssManagerSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		48D1C6781AF0476500CBAF8E /* rssmanager */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 48D1C68D1AF0476500CBAF8E /* Build configuration list for PBXNativeTarget "rssmanager" */;
@@ -158,6 +296,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				480891251AF7ACB10058745C /* PBXTargetDependency */,
 			);
 			name = rssmanager;
 			productName = rssmanager;
@@ -194,6 +333,13 @@
 					480890BD1AF769CB0058745C = {
 						CreatedOnToolsVersion = 6.3.1;
 					};
+					480890FB1AF7AB140058745C = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					480891131AF7AB140058745C = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 480890FB1AF7AB140058745C;
+					};
 					48D1C6781AF0476500CBAF8E = {
 						CreatedOnToolsVersion = 6.3.1;
 					};
@@ -208,6 +354,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 48D1C6701AF0476500CBAF8E;
 			productRefGroup = 48D1C67A1AF0476500CBAF8E /* Products */;
@@ -217,11 +364,30 @@
 				48D1C6781AF0476500CBAF8E /* rssmanager */,
 				48D1C6831AF0476500CBAF8E /* rssmanagerTests */,
 				480890BD1AF769CB0058745C /* CreateAppleDoc */,
+				480890FB1AF7AB140058745C /* RssManagerSample */,
+				480891131AF7AB140058745C /* RssManagerSampleTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		480890FA1AF7AB140058745C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4808910A1AF7AB140058745C /* Main.storyboard in Resources */,
+				4808910F1AF7AB140058745C /* LaunchScreen.xib in Resources */,
+				4808910C1AF7AB140058745C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		480891121AF7AB140058745C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		48D1C6821AF0476500CBAF8E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -248,6 +414,24 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		480890F81AF7AB140058745C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				480891071AF7AB140058745C /* ViewController.m in Sources */,
+				480891041AF7AB140058745C /* AppDelegate.m in Sources */,
+				480891011AF7AB140058745C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		480891101AF7AB140058745C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4808911B1AF7AB140058745C /* RssManagerSampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		48D1C6751AF0476500CBAF8E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -271,12 +455,46 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		480891161AF7AB140058745C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 480890FB1AF7AB140058745C /* RssManagerSample */;
+			targetProxy = 480891151AF7AB140058745C /* PBXContainerItemProxy */;
+		};
+		480891231AF7AC770058745C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48D1C6781AF0476500CBAF8E /* rssmanager */;
+			targetProxy = 480891221AF7AC770058745C /* PBXContainerItemProxy */;
+		};
+		480891251AF7ACB10058745C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 480890BD1AF769CB0058745C /* CreateAppleDoc */;
+			targetProxy = 480891241AF7ACB10058745C /* PBXContainerItemProxy */;
+		};
 		48D1C6871AF0476500CBAF8E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 48D1C6781AF0476500CBAF8E /* rssmanager */;
 			targetProxy = 48D1C6861AF0476500CBAF8E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		480891081AF7AB140058745C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				480891091AF7AB140058745C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4808910D1AF7AB140058745C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4808910E1AF7AB140058745C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		480890BF1AF769CC0058745C /* Debug */ = {
@@ -290,6 +508,80 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4808911C1AF7AB140058745C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RssManagerSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(HOME)/Library/Developer/Xcode/DerivedData";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+			};
+			name = Debug;
+		};
+		4808911D1AF7AB140058745C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = RssManagerSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(HOME)/Library/Developer/Xcode/DerivedData";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+			};
+			name = Release;
+		};
+		4808911E1AF7AB140058745C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RssManagerSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "./rssmanager/**";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RssManagerSample.app/RssManagerSample";
+			};
+			name = Debug;
+		};
+		4808911F1AF7AB140058745C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RssManagerSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "./rssmanager/**";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RssManagerSample.app/RssManagerSample";
 			};
 			name = Release;
 		};
@@ -374,18 +666,29 @@
 		48D1C68E1AF0476500CBAF8E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
 			};
 			name = Debug;
 		};
 		48D1C68F1AF0476500CBAF8E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
 			};
 			name = Release;
 		};
@@ -429,6 +732,23 @@
 			buildConfigurations = (
 				480890BF1AF769CC0058745C /* Debug */,
 				480890C01AF769CC0058745C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		480891201AF7AB140058745C /* Build configuration list for PBXNativeTarget "RssManagerSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4808911C1AF7AB140058745C /* Debug */,
+				4808911D1AF7AB140058745C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		480891211AF7AB140058745C /* Build configuration list for PBXNativeTarget "RssManagerSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4808911E1AF7AB140058745C /* Debug */,
+				4808911F1AF7AB140058745C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

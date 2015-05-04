@@ -9,15 +9,45 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>RssManagerSample.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 		<key>rssmanager.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>test1.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>480890BD1AF769CB0058745C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>480890C51AF7A8B50058745C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>480890DD1AF7A8B60058745C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>480890FB1AF7AB140058745C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>480891131AF7AB140058745C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
