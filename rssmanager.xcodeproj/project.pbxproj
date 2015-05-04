@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		480890BD1AF769CB0058745C /* CreateAppleDoc */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 480890BE1AF769CC0058745C /* Build configuration list for PBXAggregateTarget "CreateAppleDoc" */;
+			buildPhases = (
+				480890C11AF769DB0058745C /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = CreateAppleDoc;
+			productName = CreateAppleDoc;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		480890B51AF6A7F30058745C /* BaseRssHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 480890B41AF6A7F30058745C /* BaseRssHttpClient.m */; };
+		480890BB1AF7628E0058745C /* YahootopicsRssHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 480890BA1AF7628E0058745C /* YahootopicsRssHttpClient.m */; };
+		48D1C67D1AF0476500CBAF8E /* rssmanager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 48D1C67C1AF0476500CBAF8E /* rssmanager.h */; };
+		48D1C67F1AF0476500CBAF8E /* rssmanager.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D1C67E1AF0476500CBAF8E /* rssmanager.m */; };
+		48D1C6851AF0476500CBAF8E /* librssmanager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 48D1C6791AF0476500CBAF8E /* librssmanager.a */; };
+		48D1C6941AF0480D00CBAF8E /* Logger.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D1C6931AF0480D00CBAF8E /* Logger.m */; };
+		48D1C6971AF048E400CBAF8E /* NSURLRequest+SSL.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D1C6961AF048E400CBAF8E /* NSURLRequest+SSL.m */; };
+		48D1C69A1AF04C2F00CBAF8E /* RssConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D1C6991AF04C2F00CBAF8E /* RssConfig.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48D1C6861AF0476500CBAF8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48D1C6711AF0476500CBAF8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48D1C6781AF0476500CBAF8E;
+			remoteInfo = rssmanager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		48D1C6771AF0476500CBAF8E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				48D1C67D1AF0476500CBAF8E /* rssmanager.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		480890B41AF6A7F30058745C /* BaseRssHttpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseRssHttpClient.m; sourceTree = "<group>"; };
+		480890B61AF6A8050058745C /* BaseRssHttpClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseRssHttpClient.h; sourceTree = "<group>"; };
+		480890BA1AF7628E0058745C /* YahootopicsRssHttpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YahootopicsRssHttpClient.m; sourceTree = "<group>"; };
+		480890BC1AF7629A0058745C /* YahootopicsRssHttpClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YahootopicsRssHttpClient.h; sourceTree = "<group>"; };
+		48D1C6791AF0476500CBAF8E /* librssmanager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = librssmanager.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		48D1C67C1AF0476500CBAF8E /* rssmanager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rssmanager.h; sourceTree = "<group>"; };
+		48D1C67E1AF0476500CBAF8E /* rssmanager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rssmanager.m; sourceTree = "<group>"; };
+		48D1C6841AF0476500CBAF8E /* rssmanagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rssmanagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48D1C68A1AF0476500CBAF8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48D1C6931AF0480D00CBAF8E /* Logger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Logger.m; sourceTree = "<group>"; };
+		48D1C6951AF0481A00CBAF8E /* Logger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Logger.h; sourceTree = "<group>"; };
+		48D1C6961AF048E400CBAF8E /* NSURLRequest+SSL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLRequest+SSL.m"; sourceTree = "<group>"; };
+		48D1C6981AF048F200CBAF8E /* NSURLRequest+SSL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSURLRequest+SSL.h"; sourceTree = "<group>"; };
+		48D1C6991AF04C2F00CBAF8E /* RssConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RssConfig.m; sourceTree = "<group>"; };
+		48D1C69B1AF04C3C00CBAF8E /* RssConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RssConfig.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48D1C6761AF0476500CBAF8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48D1C6811AF0476500CBAF8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48D1C6851AF0476500CBAF8E /* librssmanager.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48D1C6701AF0476500CBAF8E = {
+			isa = PBXGroup;
+			children = (
+				48D1C67B1AF0476500CBAF8E /* rssmanager */,
+				48D1C6881AF0476500CBAF8E /* rssmanagerTests */,
+				48D1C67A1AF0476500CBAF8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48D1C67A1AF0476500CBAF8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48D1C6791AF0476500CBAF8E /* librssmanager.a */,
+				48D1C6841AF0476500CBAF8E /* rssmanagerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48D1C67B1AF0476500CBAF8E /* rssmanager */ = {
+			isa = PBXGroup;
+			children = (
+				48D1C6991AF04C2F00CBAF8E /* RssConfig.m */,
+				48D1C69B1AF04C3C00CBAF8E /* RssConfig.h */,
+				48D1C67E1AF0476500CBAF8E /* rssmanager.m */,
+				48D1C67C1AF0476500CBAF8E /* rssmanager.h */,
+				48D1C6961AF048E400CBAF8E /* NSURLRequest+SSL.m */,
+				48D1C6981AF048F200CBAF8E /* NSURLRequest+SSL.h */,
+				48D1C6931AF0480D00CBAF8E /* Logger.m */,
+				48D1C6951AF0481A00CBAF8E /* Logger.h */,
+				480890B41AF6A7F30058745C /* BaseRssHttpClient.m */,
+				480890B61AF6A8050058745C /* BaseRssHttpClient.h */,
+				480890BA1AF7628E0058745C /* YahootopicsRssHttpClient.m */,
+				480890BC1AF7629A0058745C /* YahootopicsRssHttpClient.h */,
+			);
+			path = rssmanager;
+			sourceTree = "<group>";
+		};
+		48D1C6881AF0476500CBAF8E /* rssmanagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				48D1C6891AF0476500CBAF8E /* Supporting Files */,
+			);
+			path = rssmanagerTests;
+			sourceTree = "<group>";
+		};
+		48D1C6891AF0476500CBAF8E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				48D1C68A1AF0476500CBAF8E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48D1C6781AF0476500CBAF8E /* rssmanager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48D1C68D1AF0476500CBAF8E /* Build configuration list for PBXNativeTarget "rssmanager" */;
+			buildPhases = (
+				48D1C6751AF0476500CBAF8E /* Sources */,
+				48D1C6761AF0476500CBAF8E /* Frameworks */,
+				48D1C6771AF0476500CBAF8E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rssmanager;
+			productName = rssmanager;
+			productReference = 48D1C6791AF0476500CBAF8E /* librssmanager.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		48D1C6831AF0476500CBAF8E /* rssmanagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48D1C6901AF0476500CBAF8E /* Build configuration list for PBXNativeTarget "rssmanagerTests" */;
+			buildPhases = (
+				48D1C6801AF0476500CBAF8E /* Sources */,
+				48D1C6811AF0476500CBAF8E /* Frameworks */,
+				48D1C6821AF0476500CBAF8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48D1C6871AF0476500CBAF8E /* PBXTargetDependency */,
+			);
+			name = rssmanagerTests;
+			productName = rssmanagerTests;
+			productReference = 48D1C6841AF0476500CBAF8E /* rssmanagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48D1C6711AF0476500CBAF8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Azarashi;
+				TargetAttributes = {
+					480890BD1AF769CB0058745C = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					48D1C6781AF0476500CBAF8E = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					48D1C6831AF0476500CBAF8E = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 48D1C6741AF0476500CBAF8E /* Build configuration list for PBXProject "rssmanager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 48D1C6701AF0476500CBAF8E;
+			productRefGroup = 48D1C67A1AF0476500CBAF8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48D1C6781AF0476500CBAF8E /* rssmanager */,
+				48D1C6831AF0476500CBAF8E /* rssmanagerTests */,
+				480890BD1AF769CB0058745C /* CreateAppleDoc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48D1C6821AF0476500CBAF8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		480890C11AF769DB0058745C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "DOC_DIR=\"${SRCROOT}/doc\"\nTARGET_DIR=\"${SRCROOT}/${PROJECT_NAME}\"\nmkdir -p \"${DOC_DIR}\"\n\n/usr/local/bin/appledoc --project-name \"${PROJECT_NAME}\" --project-company AzarashiCorp --create-html --no-create-docset --output \"${DOC_DIR}\" \"${TARGET_DIR}\"\n\n// typedef not supported\nexit 0;";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48D1C6751AF0476500CBAF8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				480890BB1AF7628E0058745C /* YahootopicsRssHttpClient.m in Sources */,
+				48D1C69A1AF04C2F00CBAF8E /* RssConfig.m in Sources */,
+				48D1C67F1AF0476500CBAF8E /* rssmanager.m in Sources */,
+				48D1C6971AF048E400CBAF8E /* NSURLRequest+SSL.m in Sources */,
+				48D1C6941AF0480D00CBAF8E /* Logger.m in Sources */,
+				480890B51AF6A7F30058745C /* BaseRssHttpClient.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48D1C6801AF0476500CBAF8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48D1C6871AF0476500CBAF8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48D1C6781AF0476500CBAF8E /* rssmanager */;
+			targetProxy = 48D1C6861AF0476500CBAF8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		480890BF1AF769CC0058745C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		480890C01AF769CC0058745C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		48D1C68B1AF0476500CBAF8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		48D1C68C1AF0476500CBAF8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48D1C68E1AF0476500CBAF8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		48D1C68F1AF0476500CBAF8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		48D1C6911AF0476500CBAF8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = rssmanagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		48D1C6921AF0476500CBAF8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = rssmanagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		480890BE1AF769CC0058745C /* Build configuration list for PBXAggregateTarget "CreateAppleDoc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				480890BF1AF769CC0058745C /* Debug */,
+				480890C01AF769CC0058745C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		48D1C6741AF0476500CBAF8E /* Build configuration list for PBXProject "rssmanager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48D1C68B1AF0476500CBAF8E /* Debug */,
+				48D1C68C1AF0476500CBAF8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48D1C68D1AF0476500CBAF8E /* Build configuration list for PBXNativeTarget "rssmanager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48D1C68E1AF0476500CBAF8E /* Debug */,
+				48D1C68F1AF0476500CBAF8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48D1C6901AF0476500CBAF8E /* Build configuration list for PBXNativeTarget "rssmanagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48D1C6911AF0476500CBAF8E /* Debug */,
+				48D1C6921AF0476500CBAF8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48D1C6711AF0476500CBAF8E /* Project object */;
+}
