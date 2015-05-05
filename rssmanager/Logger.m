@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "Logger.h"
 
-// FIXME: ファイル名称やクラス名称をRssLoggerに変更したい
+// TODO: ファイル名称やクラス名称をRssLoggerに変更したい
 @implementation Logger
 
 /*

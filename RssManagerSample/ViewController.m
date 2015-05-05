@@ -25,6 +25,7 @@
     [manager initWithConfig:cfg];
     
     NSDictionary *params = @{@"url":@"http://rss.dailynews.yahoo.co.jp/fc/rss.xml",
+                             @"client":@"YahootopicsRssHttpClient",
                              @"debug":@"1"};
     
     [manager requestAsync:params
