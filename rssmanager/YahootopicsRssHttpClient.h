@@ -11,8 +11,17 @@
 
 #import "BaseRssHttpClient.h"
 
+/**
+ * Yahoo Topicsを取得するためのクラスです。BaseRssHttpClientを継承しています。
+ */
 @interface YahootopicsRssHttpClient : BaseRssHttpClient
+
+/**
+ * クラスに関する情報を表示します。*親クラスのメソッドをオーバーライドしています*
+ * @return void
+ */
 + (void)printClass;
+
 @end
 
 #endif

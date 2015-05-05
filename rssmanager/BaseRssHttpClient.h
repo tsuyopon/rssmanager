@@ -11,9 +11,21 @@
 
 #import "Logger.h"
 
+/**
+ * RSSにHTTPリクエストするための基底クラスです。**このクラスは継承として利用し、直接呼び出さないようにしてください。
+ */
 @interface BaseRssHttpClient : NSObject
 
+/**
+ * クラスに関する情報を表示します。
+ * @return void
+ */
 + (void)printClass;
+
+/**
+ * RSS
+ * @return リクエストが成功したかどうかを返却します。
+ */
 + (BOOL)getRssRequest:(NSDictionary*)urlInfo returningBody:(NSString**) respBody returningInfo:(NSURLResponse**) respInfo;
 
 @property NSString * const requestUrl;

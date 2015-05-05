@@ -36,6 +36,11 @@
 
 #endif // DEBUG
 
+
+/**
+ * ログレベルを出力するためのオブジェクトです。
+ * @warning ログを出力するのはDBEUGスキーマのみです。
+ */
 @interface Logger : NSObject
 
 /**
@@ -50,10 +55,40 @@
  * @param ... 展開文字列
  */
 + (void)fatal:(NSString*)format, ...;
+
+/**
+ * ERRORログを出力
+ * @param format 書式
+ * @param ... 展開文字列
+ */
 + (void)error:(NSString*)format, ...;
+
+/**
+ * WARNログを出力
+ * @param format 書式
+ * @param ... 展開文字列
+ */
 + (void)warn: (NSString*)format, ...;
+
+/**
+ * INFOログを出力
+ * @param format 書式
+ * @param ... 展開文字列
+ */
 + (void)info: (NSString*)format, ...;
+
+/**
+ * DEBUGログを出力
+ * @param format 書式
+ * @param ... 展開文字列
+ */
 + (void)debug:(NSString*)format, ...;
+
+/**
+ * TRACEログを出力
+ * @param format 書式
+ * @param ... 展開文字列
+ */
 + (void)trace:(NSString*)format, ...;
 
 /**

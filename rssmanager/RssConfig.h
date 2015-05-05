@@ -26,6 +26,9 @@ typedef NS_ENUM(NSInteger, LoggerLogLevel){
     LoggerLogTrace
 };
 
+/**
+ * ログレベル設定
+ */
 @property LoggerLogLevel logLevel;
 
 @end
