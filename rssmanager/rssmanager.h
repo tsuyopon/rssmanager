@@ -13,6 +13,8 @@
 
 @interface rssmanager : NSObject
 
+@property BaseRssHttpClient *rssClient;
+
 + (rssmanager*)sharedInstance;
 - (BOOL)initWithConfig:(RssConfig*)config;
 - (void)requestAsync:(NSDictionary *)urlInfo

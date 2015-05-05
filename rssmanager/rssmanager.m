@@ -70,7 +70,13 @@ RssConfig* sharedConfig;
         NSString *respBody;
         NSURLResponse *respInfo;
 //        [BaseRssHttpClient getRssRequest:urlInfo returningBody:&respBody returningInfo:&respInfo];
-        [YahootopicsRssHttpClient getRssRequest:urlInfo returningBody:&respBody returningInfo:&respInfo];
+        if([urlInfo objectForKey:@"client"]){
+            // FIXME: クラスに応じて動的にオブジェクトを取得して切り替えを行う
+            RSSLOG_INFO(@"client key is set");
+        } else {
+            RSSLOG_INFO(@"client key is not set");
+            [YahootopicsRssHttpClient getRssRequest:urlInfo returningBody:&respBody returningInfo:&respInfo];
+        }
         NSInteger statusCode = ((NSHTTPURLResponse*)respInfo).statusCode;
         
         // FIXME:成功ステータスはリクエスト側に決定させる。指定がなければ200とする。
