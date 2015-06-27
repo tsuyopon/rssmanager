@@ -2,7 +2,7 @@
 //  rssmanager.h
 //  rssmanager
 //
-//  Created by 大石 剛 on 2015/04/29.
+//  Created by Azarashi on 2015/04/29.
 //  Copyright (c) 2015年 Tsuyoshi Ooishi. All rights reserved.
 //
 
